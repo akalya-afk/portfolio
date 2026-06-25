@@ -1,0 +1,347 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Akalya S | Portfolio</title>
+
+<link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap" rel="stylesheet">
+
+<style>
+*{
+margin:0;
+padding:0;
+box-sizing:border-box;
+font-family:'Poppins',sans-serif;
+}
+
+body{
+background:#0f172a;
+color:white;
+scroll-behavior:smooth;
+}
+
+nav{
+display:flex;
+justify-content:space-between;
+align-items:center;
+padding:20px 8%;
+background:#1e293b;
+position:sticky;
+top:0;
+z-index:100;
+}
+
+.logo{
+font-size:28px;
+font-weight:700;
+color:#38bdf8;
+}
+
+nav ul{
+display:flex;
+list-style:none;
+}
+
+nav ul li{
+margin-left:20px;
+}
+
+nav ul li a{
+text-decoration:none;
+color:white;
+transition:.3s;
+}
+
+nav ul li a:hover{
+color:#38bdf8;
+}
+
+.hero{
+height:100vh;
+display:flex;
+justify-content:center;
+align-items:center;
+text-align:center;
+flex-direction:column;
+padding:20px;
+}
+
+.hero h1{
+font-size:60px;
+}
+
+.hero span{
+color:#38bdf8;
+}
+
+.hero p{
+margin-top:15px;
+font-size:22px;
+}
+
+.btn{
+display:inline-block;
+margin-top:20px;
+padding:12px 25px;
+background:#38bdf8;
+color:black;
+font-weight:bold;
+border-radius:8px;
+text-decoration:none;
+}
+
+section{
+padding:80px 10%;
+}
+
+.title{
+text-align:center;
+color:#38bdf8;
+margin-bottom:40px;
+}
+
+.card{
+background:#1e293b;
+padding:25px;
+border-radius:12px;
+margin-bottom:20px;
+transition:.3s;
+}
+
+.card:hover{
+transform:translateY(-8px);
+}
+
+.grid{
+display:grid;
+grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+gap:20px;
+}
+
+.skill{
+background:#1e293b;
+padding:20px;
+border-radius:10px;
+text-align:center;
+}
+
+.contact{
+text-align:center;
+line-height:2;
+}
+
+footer{
+background:#1e293b;
+padding:20px;
+text-align:center;
+}
+
+.social a{
+display:inline-block;
+margin:10px;
+padding:10px 20px;
+background:#38bdf8;
+color:black;
+text-decoration:none;
+border-radius:8px;
+font-weight:bold;
+}
+</style>
+</head>
+
+<body>
+
+<nav>
+<div class="logo">Akalya S</div>
+
+<ul>
+<li><a href="#about">About</a></li>
+<li><a href="#skills">Skills</a></li>
+<li><a href="#projects">Projects</a></li>
+<li><a href="#internship">Internship</a></li>
+<li><a href="#certifications">Certifications</a></li>
+<li><a href="#contact">Contact</a></li>
+</ul>
+</nav>
+
+<section class="hero">
+<h1>Hello, I'm <span>Akalya S</span></h1>
+
+<p id="typing"></p>
+
+<div class="social">
+<a href="YOUR_LINKEDIN_URL" target="_blank">LinkedIn</a>
+<a href="YOUR_GITHUB_URL" target="_blank">GitHub</a>
+</div>
+
+<a href="resume.pdf" download class="btn">
+Download Resume
+</a>
+</section>
+
+<section id="about">
+<h2 class="title">About Me</h2>
+
+<div class="card">
+<p>
+Computer Science Engineering student at
+Dr. N.G.P Institute of Technology with CGPA 8.11.
+
+Passionate about Java Development,
+Full Stack Development, Web Technologies,
+and AI-based solutions.
+
+Currently pursuing internship experience and
+building real-world software projects.
+</p>
+</div>
+</section>
+
+<section id="skills">
+<h2 class="title">Skills</h2>
+
+<div class="grid">
+
+<div class="skill">Java</div>
+<div class="skill">Python</div>
+<div class="skill">HTML</div>
+<div class="skill">CSS</div>
+<div class="skill">JavaScript</div>
+<div class="skill">SQLite</div>
+<div class="skill">Git</div>
+<div class="skill">GitHub</div>
+
+</div>
+</section>
+
+<section id="projects">
+<h2 class="title">Projects</h2>
+
+<div class="card">
+<h3>🤟 Hand Talk AI</h3>
+<br>
+<p>
+AI-powered sign language recognition system
+that converts hand gestures into text and speech,
+improving accessibility for hearing and speech-impaired users.
+</p>
+</div>
+
+<div class="card">
+<h3>📚 Library Management System</h3>
+<br>
+<p>
+Developed using Python, Tkinter, and SQLite.
+Automates book issue, return, and user management operations.
+</p>
+</div>
+</section>
+
+<section id="internship">
+<h2 class="title">Internship</h2>
+
+<div class="card">
+<h3>Web Development Intern</h3>
+<br>
+<p>
+Skylena Info Technology Pvt. Ltd.
+(Coimbatore)
+
+Duration: June 2025
+
+Worked on front-end and back-end development.
+Gained practical experience in full-stack web application development.
+</p>
+</div>
+</section>
+
+<section id="certifications">
+<h2 class="title">Certifications</h2>
+
+<div class="card">
+<ul>
+<li>NPTEL - Cloud Computing (2024)</li>
+<li>Responsible & Safe AI (2024)</li>
+<li>Introduction to IoT - Elite (2025)</li>
+</ul>
+</div>
+</section>
+
+<section id="contact">
+<h2 class="title">Contact Me</h2>
+
+<div class="contact">
+<p>📧 akalyaselvam2005@gmail.com</p>
+<p>📱 9344279170</p>
+<p>📍 Coimbatore, Tamil Nadu</p>
+
+<div class="social">
+<a href="YOUR_LINKEDIN_URL" target="_blank">LinkedIn</a>
+<a href="YOUR_GITHUB_URL" target="_blank">GitHub</a>
+</div>
+
+</div>
+</section>
+
+<footer>
+<p>© 2026 Akalya S | Portfolio</p>
+</footer>
+
+<script>
+
+const roles = [
+"Java Developer",
+"Full Stack Developer",
+"Web Developer",
+"AI Enthusiast"
+];
+
+let roleIndex = 0;
+let charIndex = 0;
+
+function typeText(){
+
+if(charIndex < roles[roleIndex].length){
+
+document.getElementById("typing").innerHTML +=
+roles[roleIndex].charAt(charIndex);
+
+charIndex++;
+
+setTimeout(typeText,100);
+
+}else{
+setTimeout(deleteText,1500);
+}
+}
+
+function deleteText(){
+
+if(charIndex > 0){
+
+document.getElementById("typing").innerHTML =
+roles[roleIndex].substring(0,charIndex-1);
+
+charIndex--;
+
+setTimeout(deleteText,50);
+
+}else{
+
+roleIndex++;
+
+if(roleIndex >= roles.length){
+roleIndex = 0;
+}
+
+setTimeout(typeText,300);
+}
+}
+
+typeText();
+
+</script>
+
+</body>
+</html>
